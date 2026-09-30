@@ -1,14 +1,117 @@
-<!doctype html>
-<html lang="de">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>ArcGIS Admin Navigator</title>
-  <meta http-equiv="refresh" content="0; url=./ArcGIS_Admin_Navigator.html">
-  <link rel="canonical" href="./ArcGIS_Admin_Navigator.html">
-  <script>location.replace('./ArcGIS_Admin_Navigator.html' + location.search + location.hash);</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Geo Projects</title>
+
+    <style>
+        body {
+            font-family: Segoe UI, Arial, sans-serif;
+            background: #f4f7fa;
+            margin: 0;
+            padding: 40px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h1 {
+            color: #0079c1;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #0079c1;
+            font-size: 1.2rem;
+        }
+
+        .card p {
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #0079c1;
+            color: white;
+            text-decoration: none;
+            padding: 10px 18px;
+            border-radius: 6px;
+            font-weight: 600;
+        }
+
+        .btn:hover {
+            background: #005a8c;
+        }
+
+        footer {
+            margin-top: 50px;
+            color: #888;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
+
 <body>
-  <p><a href="./ArcGIS_Admin_Navigator.html">ArcGIS Admin Navigator öffnen</a></p>
+<div class="container">
+
+    <h1>🌍 AI Geo Projects</h1>
+    <p>Select one of the available applications.</p>
+
+    <div class="cards">
+
+        <div class="card">
+            <h2>ArcGIS Admin Navigator</h2>
+            <p>Interactive ArcGIS administration and configuration guide.</p>
+            <a class="btn"avigator.htmlOpen</a>
+        </div>
+
+        <div class="card">
+            <h2>GIS for NGOs</h2>
+            <p>Examples and opportunities for NGOs using GIS and geospatial technology.</p>
+            <aS_for_NGOs.htmlOpen</a>
+        </div>
+
+        <div class="card">
+            <h2>Opportunity4GIS</h2>
+            <p>Explore untapped opportunities and innovation potential for GIS.</p>
+            <aportunity4GIS.htmlOpen</a>
+        </div>
+
+    </div>
+
+    <footer>
+        Hosted on GitHub Pages
+    </footer>
+
+</div>
 </body>
 </html>
